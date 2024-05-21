@@ -165,9 +165,10 @@ let madLib = 'The Intro to JavaScript course is ' + adjective1 + '. James and Ju
  let firstName = 'Fahad';
  let interests = "Tea";
  let hobby = 'buy tables';
- let awesomeMessage= '';
+ let awesomeMessage= ''
+ awesomeMessage = awesomeMessage.concat('Hi, my name is ', firstName ,'. I love ',interests,'. In my spare time, I like to ',hobby,'.');
  
  
  
  
- console.log(awesomeMessage.concat('Hi, my name is ', firstName ,'. I love ',interests,'. In my spare time, I like to ',hobby,'.'));
+ console.log(awesomeMessage)
